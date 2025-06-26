@@ -1,12 +1,12 @@
 pipeline {
     agent any
 
-    // stages {
-    //     stage('Clone') {
-    //         steps {
-    //             git 'https://github.com/PAGIDIPALLISHYAMKUMAR/flask-docker-app.git'
-    //         }
-    //     }
+    stages {
+        // stage('Clone') {
+        //     steps {
+        //         git 'https://github.com/PAGIDIPALLISHYAMKUMAR/flask-docker-app.git'
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {
